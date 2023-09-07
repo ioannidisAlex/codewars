@@ -1,5 +1,5 @@
 def digit_zeroer(n):
-    for i in range(0, len(str(n))-1):
+		for i in range(0, len(str(n))-1):
         u = n % 10
         n = n // 10;
         if u != 0:
